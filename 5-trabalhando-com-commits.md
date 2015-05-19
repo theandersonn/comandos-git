@@ -1,18 +1,18 @@
-# 4. Trabalhando com commits
+# 5. Trabalhando com commits
 
-**4.1** Commitando arquivos 
+**5.1** Commitando arquivos 
 
 git commit -m "Inseir um Comentário Significativo"
 
-**4.2** Editando o último commit
+**5.2** Editando o último commit
 
 git commit --amend -m "mensagem-do-commit"
 
-**4.3** revertendo ação de um commit específico
+**5.3** revertendo ação de um commit específico
 
 git revert commit-hash
 
-**4.4** Visualizando relatório de commits 
+**5.4** Visualizando relatório de commits 
 
 git log // Todos os commits
 
