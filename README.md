@@ -11,6 +11,7 @@ Essas são anotações que eu fiz em muitas madrugadas de pesquisa sobre control
 5. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/5-trabalhando-com-commits.md)
 6. [Trabalhando com Branchs](https://github.com/theandersonn/comandos-git/blob/master/6-trabalhando-com-branchs.md)
 7. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/7-trabalhando-com-git-e-github.md)
+8. [Trabalhando com Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/8-trabalhando-com-git-no-servidor.md)
 
 ### Quer colaborar?
 
