@@ -7,20 +7,20 @@
 **Obs3:** Não seja tímido(a) peça um help pro Git
 git help insira-verb
 
-**1.1** Locomovendo-se pelas pastas do projeto
+**1.1 Locomovendo-se pelas pastas do projeto**
 
 cd nome-da-pasta
 
 cd .. // Retorna 1 nível
 
-**1.2** Cadastrando nome de usuário
+**1.2 Cadastrando nome de usuário**
 
 git config --global user.name nome-sobrenome
 
-**1.3** Cadastrando email de usuário
+**1.3 Cadastrando email de usuário**
 
 git config --global user.email email@email.com.br
 
-**1.4** Visualizar as configurões de usuário
+**1.4 Visualizar as configurões de usuário**
 
 git config --list
