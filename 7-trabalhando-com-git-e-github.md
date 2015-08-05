@@ -3,7 +3,7 @@
 **7.1 Gerando uma chave SSH de autenticação no Git bash**
 
 // O git irá lhe perguntar: "nome de arquivo" e "senha", aplique 2 enters e ignore se for conveniente
-ssh-keygen 
+ssh-keygen
 
 // Normalmente o Git gera essa chave numa pasta dentre de Meus Documentos
 
@@ -23,7 +23,7 @@ Acesse "Repositories" > New
 
 No Github copie a URL SSH
 
-No gitBash (git clone CTRL+insert nomeOpcional)
+No gitBash (git clone + insert nomeOpcional)
 
 **7.5 Enviando as modificações para o GitHub**
 
