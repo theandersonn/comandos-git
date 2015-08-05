@@ -27,3 +27,7 @@ gitk // Visualize os Commits numa interface gráfica
 **5.5 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
 
 git diff
+
+**Visualizar alterações feitas depois do último commit que já foram stageadas**
+
+git diff --cached
