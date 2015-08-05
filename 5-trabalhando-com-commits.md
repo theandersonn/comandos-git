@@ -8,7 +8,7 @@ git commit -m "Inseir um Comentário Significativo"
 
 git commit --amend -m "mensagem-do-commit"
 
-**5.3 revertendo ação de um commit específico**
+**5.3 Revertendo ação de um commit específico**
 
 git revert commit-hash
 
