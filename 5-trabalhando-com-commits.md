@@ -1,6 +1,6 @@
 # 5. Trabalhando com commits
 
-**5.1 Commitando arquivos** 
+**5.1 Commitando arquivos**
 
 git commit -m "Inseir um Comentário Significativo"
 
@@ -12,7 +12,7 @@ git commit --amend -m "mensagem-do-commit"
 
 git revert commit-hash
 
-**5.4 Visualizando relatório de commits** 
+**5.4 Visualizando relatório de commits**
 
 git log // Todos os commits
 
@@ -23,3 +23,7 @@ git log -p // Junção dos Commits realizados + Diff
 git log -p // Quantidade específica de Commits realizados + Diff
 
 gitk // Visualize os Commits numa interface gráfica
+
+**5.5 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
+
+git diff
