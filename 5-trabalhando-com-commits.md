@@ -12,7 +12,10 @@ git commit --amend -m "mensagem-do-commit"
 
 git revert commit-hash
 
-**5.4 Visualizando relatório de commits**
+**5.4 Excluindo um commit local**
+git reset --hard numero-hash-commit
+
+**5.5 Visualizando relatório de commits**
 
 git log // Todos os commits
 
@@ -24,10 +27,10 @@ git log -p // Quantidade específica de Commits realizados + Diff
 
 gitk // Visualize os Commits numa interface gráfica
 
-**5.5 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
+**5.6 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
 
 git diff
 
-**5.6 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**5.7 Visualizar alterações feitas depois do último commit que já foram stageadas**
 
 git diff --cached
