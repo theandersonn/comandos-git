@@ -27,10 +27,13 @@ git log -p // Quantidade específica de Commits realizados + Diff
 
 gitk // Visualize os Commits numa interface gráfica
 
-**5.6 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
+**5.6 Visualizar número de commits por usuário**
+git shortlog -s
+
+**5.7 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
 
 git diff
 
-**5.7 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**5.8 Visualizar alterações feitas depois do último commit que já foram stageadas**
 
 git diff --cached
