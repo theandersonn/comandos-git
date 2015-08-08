@@ -41,3 +41,6 @@ git diff --cached
 **5.9 Jogar alterações para o stash**
 
 git stash
+
+**5.10 Visualizando itens que estão no stash**
+git stash list
