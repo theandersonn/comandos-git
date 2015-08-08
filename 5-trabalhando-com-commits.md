@@ -38,7 +38,7 @@ git diff
 
 git diff --cached
 
-**5.9 Jogar alterações para o stash**
+**5.9 Transferindo alterações que ainda não estão commitadas para o stash**
 
 git stash
 
