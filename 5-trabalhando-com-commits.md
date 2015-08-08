@@ -44,3 +44,9 @@ git stash
 
 **5.10 Visualizando itens que estão no stash**
 git stash list
+
+**5.11 Utilizando o último item adicionado no stash**
+git stash apply
+
+**5.12 Limpando o stash**
+git stash clear
