@@ -37,3 +37,7 @@ git diff
 **5.8 Visualizar alterações feitas depois do último commit que já foram stageadas**
 
 git diff --cached
+
+**5.9 Jogar alterações para o stash**
+
+git stash
