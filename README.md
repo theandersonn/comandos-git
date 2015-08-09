@@ -1,6 +1,6 @@
 # Comandos Git
 
-Essas são anotações que eu fiz em muitas madrugadas de pesquisa sobre controle de versão e Git; decidi organizar neste repositório. Estarei apliando o assunto com atualizações.
+Esta é a minha mini cartilha, uma colinha com anotações que eu fiz em pesquisas sobre controle de versão e Git. Estarei apliando o assunto com atualizações.
 
 ## Tópicos
 
@@ -23,6 +23,6 @@ Colaborador
 --------------
 [Anderson Nascimento](http://www.andersonn.com.br) - Blog e links para networking;
 
-Links úteis 
+Links úteis
 -------------------
 Em breve.
