@@ -3,7 +3,7 @@
 **2.1 Criando Repositório**
 ```bash
 mkdir nome-do-repositorio
-
+```
 **2.2 Iniciando o Versionamento neste repositório**
 ```bash
 git init
