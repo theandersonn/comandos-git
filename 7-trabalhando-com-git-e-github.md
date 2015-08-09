@@ -35,7 +35,8 @@ git pull origin master
 ```
 **7.7 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
-// Nesse momento o nosso repositório chama-se "origin", vamos criar um novo chamado "upstream" que apontará para o original.
+// Nesse momento o nosso repositório chama-se "origin";
+// Vamos criar um novo chamado "upstream" que apontará para o original.
 
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
