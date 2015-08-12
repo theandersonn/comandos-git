@@ -29,22 +29,26 @@ No gitBash (git clone + insert nomeOpcional)
 ```bash
 git push origin master
 ```
-**7.6 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
+**7.6 Deletando branch remota**
+```bash
+git push origem :nome-da-branch
+```
+**7.7 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
 git pull origin master
 ```
-**7.7 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**7.8 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
 // Nesse momento o nosso repositório chama-se "origin";
 // Vamos criar um novo chamado "upstream" que apontará para o original.
 
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
-**7.8 Sincronizando os dois repositórios** (upstream e original)
+**7.9 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
-**7.9 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**7.10 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
