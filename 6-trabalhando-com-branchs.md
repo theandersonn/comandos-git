@@ -20,3 +20,7 @@ git branch // A branch corrente será marcada por um asterisco
 ```bash
 git branch -d nome-da-branch
 ```
+**6.5 Deletando branch remota**
+```bash
+git push origem :nome-da-branch
+```
