@@ -31,7 +31,7 @@ git push origin master
 ```
 **7.6 Deletando branch remota**
 ```bash
-git push origem :nome-da-branch
+git push origin :nome-da-branch
 ```
 **7.7 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
