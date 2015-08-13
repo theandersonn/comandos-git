@@ -22,5 +22,5 @@ git branch -d nome-da-branch
 ```
 **6.5 Deletando branch remota**
 ```bash
-git push origem :nome-da-branch
+git push origin :nome-da-branch
 ```
