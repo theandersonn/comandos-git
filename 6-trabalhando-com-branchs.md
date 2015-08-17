@@ -16,11 +16,15 @@ git merge nome-da-branch // Precisa estar na branch de destino
 ```bash
 git branch // A branch corrente será marcada por um asterisco
 ```
-**6.4 Deletando uma branch**
+**6.4 Visualizando todas as branches locais e remotas**
+```bash
+git branch -a
+```
+**6.5 Deletando uma branch**
 ```bash
 git branch -d nome-da-branch
 ```
-**6.5 Deletando branch remota**
+**6.6 Deletando branch remota**
 ```bash
 git push origin :nome-da-branch
 ```
