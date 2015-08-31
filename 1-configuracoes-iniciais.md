@@ -21,7 +21,11 @@ git config --global user.name nome-sobrenome
 ```bash
 git config --global user.email email@email.com.br
 ```
-**1.4 Visualizar as configurões de usuário**
+**1.4 Visualiza as configurões de usuário**
 ```bash
 git config --list
+```
+**1.5 Verifica versão do git bash**
+```bash
+git --version
 ```
