@@ -8,15 +8,19 @@ mkdir nome-do-repositorio
 ```bash
 git init
 ```
-**2.3 Listar o controle de diretório**
+**2.3 Criando arquivos através do terminal**
+```bash
+touch nome-aquivo.extensao
+```
+**2.4 Listar o controle de diretório**
 ```bash
 ls -a (L minusculo)
 ```
-**2.4 Verificar Status do repositorio**
+**2.5 Verificar Status do repositorio**
 ```bash
 git status
 ```
-**2.5 Separando arquivos para não serem versionados (Analise quais arquivos não precisam ser versionados)**
+**2.6 Separando arquivos para não serem versionados (Analise quais arquivos não precisam ser versionados)**
 ```bash
 // Dentro do diretório crie um arquivo de texto com a extensão .gitignore
 
