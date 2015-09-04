@@ -14,13 +14,17 @@ touch nome-aquivo.extensao
 ```
 **2.4 Listar o controle de diretório**
 ```bash
-ls -a (L minusculo)
+ls -a
 ```
-**2.5 Verificar Status do repositorio**
+**2.5 Verifica arquivos existentes no projeto**
+```bash
+ls -la
+```
+**2.6 Verificar Status do repositorio**
 ```bash
 git status
 ```
-**2.6 Separando arquivos para não serem versionados (Analise quais arquivos não precisam ser versionados)**
+**2.7 Separando arquivos para não serem versionados (Analise quais arquivos não precisam ser versionados)**
 ```bash
 // Dentro do diretório crie um arquivo de texto com a extensão .gitignore
 
