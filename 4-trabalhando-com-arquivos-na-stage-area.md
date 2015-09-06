@@ -5,6 +5,8 @@
 git diff // no diretório de trabalho (compara Work Directory com Staging Area)
 
 git diff --staged // na staged area (compara Staging Area com .Git Directory)
+
+git diff nome-arquivo.extensao // Visualiza alterações específicas de um commit
 ```
 **4.2 Revertendo alterações feitas em arquivos** (Arquivos que estão na área de trabalho)
 ```bash
