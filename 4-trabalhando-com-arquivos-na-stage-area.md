@@ -2,9 +2,9 @@
 
 **4.1 Visualizando a última alteração feita**
 ```bash
-git diff // no diretório de trabalho
+git diff // no diretório de trabalho (compara Work Directory com Staging Area)
 
-git diff --staged // na staged area
+git diff --staged // na staged area (compara Staging Area com .Git Directory)
 ```
 **4.2 Revertendo alterações feitas em arquivos** (Arquivos que estão na área de trabalho)
 ```bash
