@@ -26,6 +26,8 @@ git log -p // Junção dos Commits realizados + Diff
 
 git log -p // Quantidade específica de Commits realizados + Diff
 
+git diff nome-arquivo.extensao // Visualiza alterações específicas
+
 gitk // Visualize os Commits numa interface gráfica
 ```
 **5.6 Visualizar número de commits por usuário**
