@@ -26,10 +26,6 @@ git log -p // Junção dos Commits realizados + Diff
 
 git log -p // Quantidade específica de Commits realizados + Diff
 
-git diff nome-arquivo.extensao // Visualiza alterações específicas
-
-git diff hash-commit1 hash-commit2 // Vializa alterações entre commits
-
 gitk // Visualize os Commits numa interface gráfica
 ```
 **5.6 Visualizar número de commits por usuário**
@@ -40,23 +36,31 @@ git shortlog -s
 ```bash
 git diff
 ```
-**5.8 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**5.8 Visualiza alterações específicas**
+```bash
+git diff nome-arquivo.extensao
+```
+**5.9 Visualiza alterações entre commits**
+```bash
+git diff hash-commit1 hash-commit2
+```
+**5.10 Visualizar alterações feitas depois do último commit que já foram stageadas**
 ```bash
 git diff --cached
 ```
-**5.9 Transferindo alterações que ainda não estão commitadas para o stash**
+**5.11 Transferindo alterações que ainda não estão commitadas para o stash**
 ```bash
 git stash
 ```
-**5.10 Visualizando itens que estão no stash**
+**5.12 Visualizando itens que estão no stash**
 ```bash
 git stash list
 ```
-**5.11 Utilizando o último item adicionado no stash**
+**5.13 Utilizando o último item adicionado no stash**
 ```bash
 git stash apply
 ```
-**5.12 Limpando o stash**
+**5.14 Limpando o stash**
 ```bash
 git stash clear
 ```
