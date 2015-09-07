@@ -28,6 +28,8 @@ git log -p // Quantidade específica de Commits realizados + Diff
 
 git diff nome-arquivo.extensao // Visualiza alterações específicas
 
+git diff hash-commit1 hash-commit2 // Vializa alterações entre commits
+
 gitk // Visualize os Commits numa interface gráfica
 ```
 **5.6 Visualizar número de commits por usuário**
