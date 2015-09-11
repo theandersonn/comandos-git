@@ -8,10 +8,12 @@ git diff --staged // na staged area (compara Staging Area com .Git Directory)
 
 git diff nome-arquivo.extensao // Visualiza alterações específicas de um commit
 ```
+
 **4.2 Revertendo alterações feitas em arquivos** (Arquivos que estão na área de trabalho)
 ```bash
 git checkout -- nome-do-arquivo.extensao
 ```
+
 **4.3 Adicionando aquivos na stage area**
 ```bash
 1. maneira: git add nome-do-aquivo.extensao
@@ -19,7 +21,12 @@ git checkout -- nome-do-arquivo.extensao
 2. maneira: git add *.extensao
 
 3. maneira: git add . //add todos
+
+4. maneira: git add --all //add todos incluindo deletados
+
+5. maneira: git add -A //add todos luindo deletados
 ```
+
 **4.4 Removendo aquivos da stage area**
 ```bash
 git reset HEAD nome-do-aquivo.extensao
