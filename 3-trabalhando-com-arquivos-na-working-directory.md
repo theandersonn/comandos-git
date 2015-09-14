@@ -4,3 +4,8 @@
 ```bash
 git rm nome-file.extensao
 ```
+
+**3.2 Removendo pastas da arvore e diretórios do git**
+```bash
+git rm -r nome-diretorio
+```
