@@ -27,6 +27,8 @@ git reset --hard numero-hash-commit
 
 **5.6 Visualizando relatório de commits**
 ```bash
+gitk // Visualize os Commits numa interface gráfica
+
 git log // Todos os commits
 
 git log -p // Junção dos Commits realizados + Diff
@@ -39,7 +41,8 @@ git log --pretty==oneline // Visualizando somente o código e mensagem de cada c
 
 git log --abbrev-commit // Abrevia hash-commit
 
-gitk // Visualize os Commits numa interface gráfica
+git log --pretty=oneline --abbrev-commit // Resulta em linha única com hash-commit abreviada
+
 ```
 
 **5.7 Visualizar número de commits por usuário**
