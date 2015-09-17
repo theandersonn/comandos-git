@@ -39,7 +39,7 @@ git log --stat // Resultado com estatistica
 
 git log --name-status // Visualiza status de todos os arquivos que foram modificados
 
-git log --pretty==oneline // Visualizando somente o código e mensagem de cada commit
+git log --pretty=oneline // Visualizando somente o código e mensagem de cada commit
 
 git log --abbrev-commit // Abrevia hash-commit
 
