@@ -7,29 +7,40 @@
 **Obs3:** Não seja tímido(a) peça um help pro Git
 git help insira-verb
 
+
 **1.1 Locomovendo-se pelas pastas do projeto**
 ```bash
 cd nome-da-pasta
 
 cd .. // Retorna 1 nível
 ```
-**1.2 Cadastrando nome de usuário**
+
+**1.2 Configura nome de usuário**
 ```bash
 git config --global user.name nome-sobrenome
 ```
-**1.3 Cadastrando email de usuário**
+
+**1.3 Configura email de usuário**
 ```bash
 git config --global user.email email@email.com.br
 ```
-**1.4 Visualiza as configurões de usuário**
+
+**1.4 Configura editor padrão**
+```bash
+git config --global core.editor nome-editor
+```
+
+**1.5 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
-**1.5 Visualiza as configurões de usuário**
+
+**1.6 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
-**1.6 Verifica versão do git bash**
+
+**1.7 Verifica versão do git bash**
 ```bash
 git --version
 ```
