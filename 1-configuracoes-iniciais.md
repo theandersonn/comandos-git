@@ -37,17 +37,17 @@ git config --global -e
 // Exemplo editor = atom --wait
 ```
 
-**1.5 Visualiza as configurões de usuário**
+**1.6 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**1.6 Visualiza as configurões de usuário**
+**1.7 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**1.7 Verifica versão do git bash**
+**1.8 Verifica versão do git bash**
 ```bash
 git --version
 ```
