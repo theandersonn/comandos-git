@@ -31,9 +31,9 @@ gitk // Visualize os Commits numa interface gráfica
 
 git log // Todos os commits
 
-git log -p // Junção dos Commits realizados + Diff
+git log -p // Commits realizados + Diff
 
-git log -p // Quantidade específica de Commits realizados + Diff
+git log -p -3 // Commits realizados + Diff com limitação de exibição
 
 git log --name-status // Visualiza status de todos os arquivos que foram modificados
 
