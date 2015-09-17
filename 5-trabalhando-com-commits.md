@@ -35,6 +35,8 @@ git log -p // Commits realizados + Diff
 
 git log -p -3 // Commits realizados + Diff com limitação de exibição
 
+git log --stat // Resultado com estatistica
+
 git log --name-status // Visualiza status de todos os arquivos que foram modificados
 
 git log --pretty==oneline // Visualizando somente o código e mensagem de cada commit
