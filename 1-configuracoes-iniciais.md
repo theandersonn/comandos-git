@@ -30,6 +30,13 @@ git config --global user.email email@email.com.br
 git config --global core.editor nome-editor
 ```
 
+**1.5 Edita configurações globais**
+```bash
+git config --global -e
+
+// Exemplo editor = atom --wait
+```
+
 **1.5 Visualiza as configurões de usuário**
 ```bash
 git config -l
