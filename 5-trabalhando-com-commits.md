@@ -29,13 +29,15 @@ git reset --hard numero-hash-commit
 ```bash
 git log // Todos os commits
 
-git log --pretty==oneline // Visualizando somente o código e mensagem de cada commit
-
 git log -p // Junção dos Commits realizados + Diff
 
 git log -p // Quantidade específica de Commits realizados + Diff
 
 git log --name-status // Visualiza status de todos os arquivos que foram modificados
+
+git log --pretty==oneline // Visualizando somente o código e mensagem de cada commit
+
+git log --abbrev-commit // Abrevia hash-commit
 
 gitk // Visualize os Commits numa interface gráfica
 ```
