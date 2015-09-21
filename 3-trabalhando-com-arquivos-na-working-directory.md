@@ -6,7 +6,7 @@ git rm nome-file.extensao
 ```
 **3.2 Removendo todos os arquivos da arvore**
 ```bash
-git rm -rf .
+git rm -rf . ( CUIDADO )
 ```
 **3.3 Removendo pastas da arvore**
 ```bash
