@@ -67,27 +67,32 @@ git diff nome-arquivo.extensao
 git diff hash-commit1 hash-commit2
 ```
 
-**5.11 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**5.11 Identificando User que fez alterações em determinado arquivo**
+```bash
+git blame 'nome-arquivo'
+```
+
+**5.12 Visualizar alterações feitas depois do último commit que já foram stageadas**
 ```bash
 git diff --cached
 ```
 
-**5.12 Transferindo alterações que ainda não estão commitadas para o stash**
+**5.13 Transferindo alterações que ainda não estão commitadas para o stash**
 ```bash
 git stash
 ```
 
-**5.13 Visualizando itens que estão no stash**
+**5.14 Visualizando itens que estão no stash**
 ```bash
 git stash list
 ```
 
-**5.14 Utilizando o último item adicionado no stash**
+**5.15 Utilizando o último item adicionado no stash**
 ```bash
 git stash apply
 ```
 
-**5.15 Limpando o stash**
+**5.16 Limpando o stash**
 ```bash
 git stash clear
 ```
