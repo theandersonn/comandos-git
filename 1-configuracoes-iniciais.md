@@ -15,39 +15,44 @@ cd nome-da-pasta
 cd .. // Retorna 1 nível
 ```
 
-**1.2 Configura nome de usuário**
+**1.2 Retorna o caminho da pasta atual**
+```bash
+pwd
+```
+
+**1.3 Configura nome de usuário**
 ```bash
 git config --global user.name nome-sobrenome
 ```
 
-**1.3 Configura email de usuário**
+**1.4 Configura email de usuário**
 ```bash
 git config --global user.email email@email.com.br
 ```
 
-**1.4 Configura editor padrão**
+**1.5 Configura editor padrão**
 ```bash
 git config --global core.editor nome-editor
 ```
 
-**1.5 Edita configurações globais**
+**1.6 Edita configurações globais**
 ```bash
 git config --global -e
 
 // Exemplo editor = atom --wait
 ```
 
-**1.6 Visualiza as configurões de usuário**
+**1.7 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**1.7 Visualiza as configurões de usuário**
+**1.8 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**1.8 Verifica versão do git bash**
+**1.9 Verifica versão do git bash**
 ```bash
 git --version
 ```
