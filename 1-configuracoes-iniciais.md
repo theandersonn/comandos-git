@@ -35,24 +35,29 @@ git config --global user.email email@email.com.br
 git config --global core.editor nome-editor
 ```
 
-**1.6 Edita configurações globais**
+**1.6 Configura a merge tool (meld)**
+```bash
+git config --global merge.tool meld
+```
+
+**1.7 Edita configurações globais**
 ```bash
 git config --global -e
 
 // Exemplo editor = atom --wait
 ```
 
-**1.7 Visualiza as configurões de usuário**
+**1.8 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**1.8 Visualiza as configurões de usuário**
+**1.9 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**1.9 Verifica versão do git bash**
+**1.10 Verifica versão do git bash**
 ```bash
 git --version
 ```
