@@ -57,6 +57,8 @@ git log --abbrev-commit // Abrevia hash-commit
 
 git log --pretty=oneline --abbrev-commit // Resulta em linha única com hash-commit abreviada
 
+git log --pretty=format:"%h - %an, %ar : %s" // Resultado personalizado com hash - autor - tempo - titulo-commit
+
 ```
 
 **5.9 Visualizar número de commits por usuário**
