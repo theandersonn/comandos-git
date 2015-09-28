@@ -83,7 +83,7 @@ git diff hash-commit1 hash-commit2
 
 **5.13 Identificando User que fez alterações em determinado arquivo**
 ```bash
-git blame 'nome-arquivo'
+git blame nome-arquivo
 ```
 
 **5.14 Visualizar alterações feitas depois do último commit que já foram stageadas**
