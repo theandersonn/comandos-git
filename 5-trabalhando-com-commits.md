@@ -111,6 +111,11 @@ git stash apply
 git stash drop stash@{0}
 ```
 
+**5.19 Aplica e remove o último Stash**
+```bash
+git stash pop
+```
+
 **5.20 Limpando o stash**
 ```bash
 git stash clear
