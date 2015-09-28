@@ -106,7 +106,12 @@ git stash list
 git stash apply
 ```
 
-**5.18 Limpando o stash**
+**5.18 Remove Stash**
+```bash
+git stash drop stash@{0}
+```
+
+**5.20 Limpando o stash**
 ```bash
 git stash clear
 ```
