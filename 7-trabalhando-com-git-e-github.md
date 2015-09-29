@@ -51,7 +51,7 @@ git pull origin master
 
 **7.9 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
-// Nesse momento o nosso repositório chama-se "origin";
+// Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
 
 git remote add upstream insira-url-ssh-do-repositorio-original
@@ -65,4 +65,9 @@ git fetch upstream
 **7.11 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
+```
+
+**7.12 Fechar issues através de commits**
+```bash
+git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
