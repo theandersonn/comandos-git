@@ -41,6 +41,7 @@ git push origin master
 
 **7.7 Deletando branch remota**
 ```bash
+git push origin nome-branch --delete
 git push origin :nome-da-branch
 ```
 
