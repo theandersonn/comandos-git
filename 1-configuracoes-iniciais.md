@@ -47,17 +47,24 @@ git config --global -e
 // Exemplo editor = atom --wait
 ```
 
-**1.8 Visualiza as configurões de usuário**
+**1.8 Remove configuração setada**
 ```bash
-git config -l
+git config --global --unset propriedade
+git config --global --unset core.editor // exemplo
+git config --global --unset user.email // exemplo
 ```
 
 **1.9 Visualiza as configurões de usuário**
 ```bash
+git config -l
+```
+
+**1.10 Visualiza as configurões de usuário**
+```bash
 git config --list
 ```
 
-**1.10 Verifica versão do git bash**
+**1.11 Verifica versão do git bash**
 ```bash
 git --version
 ```
