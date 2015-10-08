@@ -4,7 +4,7 @@
 ```bash
 git rm nome-file.extensao
 ```
-**3.2 Removendo todos os arquivos da arvore**
+**2 Deletando todos os arquivos da arvore e do projeto**
 ```bash
 git rm -rf . ( CUIDADO )
 ```
