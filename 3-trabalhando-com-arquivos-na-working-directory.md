@@ -1,6 +1,6 @@
 # 3. Trabalhando com arquivos na working directory
 
-**3.1 Removendo arquivos da arvore**
+**1 Removendo arquivos "deleted" da arvore**
 ```bash
 git rm nome-file.extensao
 ```
@@ -8,12 +8,12 @@ git rm nome-file.extensao
 ```bash
 git rm -rf . ( CUIDADO )
 ```
-**3.3 Removendo pastas da arvore**
+**3 Removendo pastas da arvore**
 ```bash
 git rm -r nome-diretorio
 ```
 
-**3.4 Removendo pastas da staged area e git directory**
+**4 Removendo pastas da staged area e git directory**
 ```bash
 git rm -rf nome-diretorio/ --cached
 ```
