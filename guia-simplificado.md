@@ -1,0 +1,1 @@
+# 1. Guia simplificado
