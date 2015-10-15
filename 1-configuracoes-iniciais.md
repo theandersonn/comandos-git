@@ -57,24 +57,29 @@ git config --global credential.helper cache
 git config --global --unset credential.helper
 ```
 
-**10 Remove configuração setada**
+**10 armazena senha temporariamente (https)**
+```bash
+git config --global credential.helper 'cache --timeout=3600' // (3600 segundos = 1 hora)
+```
+
+**11 Remove configuração setada**
 ```bash
 git config --global --unset propriedade
 git config --global --unset core.editor // exemplo
 git config --global --unset user.email // exemplo
 ```
 
-**11 Visualiza as configurões de usuário**
+**12 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**12 Visualiza as configurões de usuário**
+**13 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**13 Verifica versão do git bash**
+**14 Verifica versão do git bash**
 ```bash
 git --version
 ```
