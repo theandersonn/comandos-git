@@ -52,24 +52,29 @@ git config --global -e
 git config --global credential.helper cache
 ```
 
-**8 Remove configuração setada**
+**9 Remove senha armazenada (https)**
+```bash
+git config --global --unset credential.helper
+```
+
+**10 Remove configuração setada**
 ```bash
 git config --global --unset propriedade
 git config --global --unset core.editor // exemplo
 git config --global --unset user.email // exemplo
 ```
 
-**9 Visualiza as configurões de usuário**
+**11 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**10 Visualiza as configurões de usuário**
+**12 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**11 Verifica versão do git bash**
+**13 Verifica versão do git bash**
 ```bash
 git --version
 ```
