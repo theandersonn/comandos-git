@@ -8,63 +8,68 @@
 git help insira-verb
 
 
-**1.1 Locomovendo-se pelas pastas do projeto**
+**1 Locomovendo-se pelas pastas do projeto**
 ```bash
 cd nome-da-pasta
 
 cd .. // Retorna 1 nível
 ```
 
-**1.2 Retorna o caminho da pasta atual**
+**2 Retorna o caminho da pasta atual**
 ```bash
 pwd
 ```
 
-**1.3 Configura nome de usuário**
+**3 Configura nome de usuário**
 ```bash
 git config --global user.name nome-sobrenome
 ```
 
-**1.4 Configura email de usuário**
+**4 Configura email de usuário**
 ```bash
 git config --global user.email email@email.com.br
 ```
 
-**1.5 Configura editor padrão**
+**5 Configura editor padrão**
 ```bash
 git config --global core.editor nome-editor
 ```
 
-**1.6 Configura a merge tool (meld)**
+**6 Configura a merge tool (meld)**
 ```bash
 git config --global merge.tool meld
 ```
 
-**1.7 Edita configurações globais**
+**7 Edita configurações globais**
 ```bash
 git config --global -e
 
 // Exemplo editor = atom --wait
 ```
 
-**1.8 Remove configuração setada**
+**8 Armazena senha (https)**
+```bash
+git config --global credential.helper cache
+```
+
+**8 Remove configuração setada**
 ```bash
 git config --global --unset propriedade
 git config --global --unset core.editor // exemplo
 git config --global --unset user.email // exemplo
 ```
 
-**1.9 Visualiza as configurões de usuário**
+**9 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**1.10 Visualiza as configurões de usuário**
+**10 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**1.11 Verifica versão do git bash**
+**11 Verifica versão do git bash**
 ```bash
 git --version
 ```
