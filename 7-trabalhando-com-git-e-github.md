@@ -29,33 +29,38 @@ No Github copie a URL SSH
 No gitBash (git clone + insert nomeOpcional)
 ```
 
-**5 Inserir caminho do repositorio**
+**5 Inserir caminho do repositorio remoto**
 ```bash
 git remote add origin
 ```
 
-**6 Altera a url do repositório (Máquina local > Github)**
+**6 Verificar caminho do repositorio remoto que está setado**
+```bash
+git remote -v
+```
+
+**7 Altera a url do repositório remoto (Máquina local > Github)**
 ```bash
 git remote set-url origin url-repositorio
 ```
 
-**7 Enviando as modificações para o GitHub**
+**8 Enviando as modificações para o GitHub**
 ```bash
 git push origin master
 ```
 
-**8 Deletando branch remota**
+**9 Deletando branch remota**
 ```bash
 git push origin nome-branch --delete
 git push origin :nome-da-branch
 ```
 
-**9 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
+**10 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
 git pull origin master
 ```
 
-**10 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**11 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
@@ -63,17 +68,17 @@ git pull origin master
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
 
-**11 Sincronizando os dois repositórios** (upstream e original)
+**12 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
 
-**12 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**13 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
 
-**13 Fechar issues através de commits**
+**14 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
