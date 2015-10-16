@@ -10,6 +10,11 @@ ssh-keygen
 Abra o arquivo ".ssh > id_rsa" e copie a chave
 ```
 
+**2 Verificar se existe chave SSH configurada**
+```bash
+ls -al ~/.ssh
+```
+
 **2 Configurando a chave SSH no GitHub**
 ```bash
 // Insira um nome para identificar a sua máquina no Github
