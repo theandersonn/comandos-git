@@ -15,57 +15,62 @@ Abra o arquivo ".ssh > id_rsa" e copie a chave
 ls -al ~/.ssh
 ```
 
-**2 Configurando a chave SSH no GitHub**
+**3 Configurando a chave SSH no GitHub**
 ```bash
 // Insira um nome para identificar a sua máquina no Github
 
 // No Github vá em "Settings > SSH Keys" (Title + Key)
 ```
 
-**3 Crie um repositorio no GitHub**
+**4 Verificar qual chave SSH está setada**
+```bash
+ssh -T
+```
+
+**5 Crie um repositorio no GitHub**
 ```bash
 Acesse "Repositories" > New
 ```
 
-**4 Clonando o repositório para a sua máquina**
+**6 Clonando o repositório para a sua máquina**
 ```bash
 No Github copie a URL SSH
 
 No gitBash (git clone + insert nomeOpcional)
 ```
 
-**5 Inserir caminho do repositorio remoto**
+**7 Inserir caminho do repositorio remoto**
 ```bash
 git remote add origin
 ```
 
-**6 Verificar caminho do repositorio remoto que está setado**
+**8 Verificar caminho do repositorio remoto que está setado**
 ```bash
 git remote -v
 ```
 
-**7 Altera a url do repositório remoto (Máquina local > Github)**
+**9 Altera a url do repositório remoto (Máquina local > Github)**
 ```bash
 git remote set-url origin url-repositorio
 ```
 
-**8 Enviando as modificações para o GitHub**
+**10 Enviando as modificações para o GitHub**
 ```bash
 git push origin master
 ```
 
-**9 Deletando branch remota**
+**11 Deletando branch remota**
 ```bash
 git push origin nome-branch --delete
 git push origin :nome-da-branch
 ```
 
-**10 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
+**12 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
 git pull origin master
 ```
 
-**11 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**13 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
@@ -73,17 +78,17 @@ git pull origin master
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
 
-**12 Sincronizando os dois repositórios** (upstream e original)
+**14 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
 
-**13 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**15 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
 
-**14 Fechar issues através de commits**
+**16 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
