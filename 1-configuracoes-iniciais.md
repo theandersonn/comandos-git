@@ -20,6 +20,11 @@ cd .. // Retorna 1 nível
 pwd
 ```
 
+**3 Abre o Windows Explorer**
+```bash
+explorer
+```
+
 **3 Configura nome de usuário**
 ```bash
 git config --global user.name nome-sobrenome
