@@ -1,7 +1,5 @@
 ## Recomendações de livros
 
----------------------------------------
-
 ###Pro-Git
 
 * Autor(es): Scott Chacon / Eric Douglas
