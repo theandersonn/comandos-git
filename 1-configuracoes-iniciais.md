@@ -25,66 +25,71 @@ pwd
 explorer
 ```
 
-**3 Configura nome de usuário**
+**4 Abre o Explorer do Windows na pasta que estamos atualmente**
+```bash
+explorer .
+```
+
+**5 Configura nome de usuário**
 ```bash
 git config --global user.name nome-sobrenome
 ```
 
-**4 Configura email de usuário**
+**6 Configura email de usuário**
 ```bash
 git config --global user.email email@email.com.br
 ```
 
-**5 Configura editor padrão**
+**7 Configura editor padrão**
 ```bash
 git config --global core.editor nome-editor
 ```
 
-**6 Configura a merge tool (meld)**
+**8 Configura a merge tool (meld)**
 ```bash
 git config --global merge.tool meld
 ```
 
-**7 Edita configurações globais**
+**9 Edita configurações globais**
 ```bash
 git config --global -e
 
 // Exemplo editor = atom --wait
 ```
 
-**8 Armazena senha (https)**
+**10 Armazena senha (https)**
 ```bash
 git config --global credential.helper cache
 ```
 
-**9 Remove senha armazenada (https)**
+**11 Remove senha armazenada (https)**
 ```bash
 git config --global --unset credential.helper
 ```
 
-**10 armazena senha temporariamente (https)**
+**12 armazena senha temporariamente (https)**
 ```bash
 git config --global credential.helper 'cache --timeout=3600' // (3600 segundos = 1 hora)
 ```
 
-**11 Remove configuração setada**
+**13 Remove configuração setada**
 ```bash
 git config --global --unset propriedade
 git config --global --unset core.editor // exemplo
 git config --global --unset user.email // exemplo
 ```
 
-**12 Visualiza as configurões de usuário**
+**14 Visualiza as configurões de usuário**
 ```bash
 git config -l
 ```
 
-**13 Visualiza as configurões de usuário**
+**15 Visualiza as configurões de usuário**
 ```bash
 git config --list
 ```
 
-**14 Verifica versão do git bash**
+**16 Verifica versão do git bash**
 ```bash
 git --version
 ```
