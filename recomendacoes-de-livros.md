@@ -1,13 +1,15 @@
 ## Recomendações de livros
 
-###Livro: Pro-Git
+---------------------------------------
 
-```
-Autor(es): Scott Chacon / Eric Douglas
+###Pro-Git
 
-Valor: Free
+* Autor(es): Scott Chacon / Eric Douglas
 
-[Link da versão em Inglês:](https://git-scm.com/book/en/v1)
+* Valor: Free
 
-[Link da versão em Português:](https://leanpub.com/pro-git/read)
-```
+* [Link da versão em Inglês:](https://git-scm.com/book/en/v1)
+
+* [Link da versão em Português:](https://leanpub.com/pro-git/read)
+
+---------------------------------------
