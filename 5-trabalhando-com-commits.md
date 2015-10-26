@@ -8,6 +8,7 @@ git commit -m "Inseir um Comentário Significativo"
 **2 Commitando arquivos já inseridos na Staging Area**
 ```bash
 git commit -a -m "Inseir um Comentário Significativo"
+git commit -am "Inseir um Comentário Significativo"
 ```
 
 **3 Editando a mensagem do último commit**
