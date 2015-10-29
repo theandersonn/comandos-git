@@ -1,9 +1,12 @@
+![Git Super Poderes](images/git-super-poderes.png)
+
 # Conhecendo os super poderes do Git
 
-Descrição aqui.
+> Guia com seleção de comandos para o Trabalho com Git e GitHub
 
 ## Tópicos
 
+0. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/0-guia-simplificado.md)
 1. [Configurações Iniciais](https://github.com/theandersonn/comandos-git/blob/master/1-configuracoes-iniciais.md)
 2. [Criando e Versionando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/2-criando-e-versionando-repositorios.md)
 3. [Trabalhando com Arquivos na Working Directory](https://github.com/theandersonn/comandos-git/blob/master/3-trabalhando-com-arquivos-na-working-directory.md)
