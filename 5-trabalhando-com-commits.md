@@ -1,46 +1,52 @@
 # 5. Trabalhando com commits
 
-**5.1 Commitando arquivos**
+**1 Commitando arquivos**
 ```bash
 git commit -m "Inseir um Comentário Significativo"
 ```
 
-**5.2 Commitando arquivos já inseridos na Staging Area**
+**2 Commitando arquivos já inseridos na Staging Area**
 ```bash
 git commit -a -m "Inseir um Comentário Significativo"
+git commit -am "Inseir um Comentário Significativo"
 ```
 
-**5.3 Editando o último commit**
+**3 Editando a mensagem do último commit**
 ```bash
 git commit --amend -m "mensagem-do-commit"
 ```
 
-**5.4 Fechar issues através de commits**
+**4 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
 
-**5.5 Revertendo ação de um commit específico**
+**5 Revertendo ação de um commit específico**
 ```bash
 git revert commit-hash
 ```
 
-**5.6 Abortando o merge**
+**6 Abortando o processo de reverter commit**
+```bash
+git revert --abort
+```
+
+**7 Abortando o merge**
 ```bash
 git merge --abort
 ```
 
-**5.7 Acionando a merge tool**
+**8 Acionando a merge tool**
 ```bash
 git merge tool
 ```
 
-**5.8 Excluindo um commit local**
+**9 Excluindo um commit local**
 ```bash
 git reset --hard numero-hash-commit
 ```
 
-**5.9 Visualizando relatório de commits**
+**10 Visualizando relatório de commits**
 ```bash
 gitk // Visualize os Commits numa interface gráfica
 
@@ -66,62 +72,62 @@ git log --pretty=format:"%h - %an, %ar : %s" // Resultado personalizado com hash
 
 ```
 
-**5.10 Visualizar número de commits por usuário**
+**11 Visualizar número de commits por usuário**
 ```bash
 git shortlog -s
 ```
 
-**5.11 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
+**12 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
 ```bash
 git diff
 ```
 
-**5.12 Visualiza alterações específicas**
+**13 Visualiza alterações específicas**
 ```bash
 git diff nome-arquivo.extensao
 ```
 
-**5.13 Visualiza alterações entre commits**
+**14 Visualiza alterações entre commits**
 ```bash
 git diff hash-commit1 hash-commit2
 ```
 
-**5.14 Identificando User que fez alterações em determinado arquivo**
+**15 Identificando User que fez alterações em determinado arquivo**
 ```bash
 git blame nome-arquivo
 ```
 
-**5.15 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**16 Visualizar alterações feitas depois do último commit que já foram stageadas**
 ```bash
 git diff --cached
 ```
 
-**5.16 Transferindo alterações que ainda não estão commitadas para o stash**
+**17 Transferindo alterações que ainda não estão commitadas para o stash**
 ```bash
 git stash
 ```
 
-**5.17 Visualizando itens que estão no stash**
+**18 Visualizando itens que estão no stash**
 ```bash
 git stash list
 ```
 
-**5.18 Utilizando o último item adicionado no stash**
+**19 Utilizando o último item adicionado no stash**
 ```bash
 git stash apply
 ```
 
-**5.19 Remove Stash**
+**20 Remove Stash**
 ```bash
 git stash drop stash@{0}
 ```
 
-**5.20 Aplica e remove o último Stash**
+**21 Aplica e remove o último Stash**
 ```bash
 git stash pop
 ```
 
-**5.21 Limpando o stash**
+**22 Limpando o stash**
 ```bash
 git stash clear
 ```

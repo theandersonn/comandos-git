@@ -1,6 +1,6 @@
-# Comandos Git
+# Conhecendo os super poderes do Git
 
-Esta é a minha mini cartilha, uma colinha com anotações que eu fiz em pesquisas sobre controle de versão e Git. Estarei apliando o assunto com atualizações.
+Descrição aqui.
 
 ## Tópicos
 
@@ -13,16 +13,9 @@ Esta é a minha mini cartilha, uma colinha com anotações que eu fiz em pesquis
 7. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/7-trabalhando-com-git-e-github.md)
 8. [Trabalhando com Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/8-trabalhando-com-git-no-servidor.md)
 
-### Quer colaborar?
+## Questões e dúvidas
+Caso tenha alguma questão ou sugestão, abra uma [issue](https://github.com/theandersonn/comandos-git/issues/new) e envie o seu feedback.
 
-1. Faça um fork do repositório;
-2. Faça um committ das alterações feitas;
-3. Envie a sua contribuição através de um Pull Request.
+## License
 
-Colaborador
---------------
-[Anderson Nascimento](http://www.andersonn.com.br) - Blog e links para networking;
-
-Links úteis
--------------------
-Em breve.
+[MIT](https://github.com/theandersonn/comandos-git/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)
