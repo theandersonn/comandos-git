@@ -13,6 +13,8 @@ git help insira-verb
 cd nome-da-pasta
 
 cd .. // Retorna 1 nível
+
+cd - // Retorna para a pasta que estávamos anteriormente
 ```
 
 **2 Retorna o caminho da pasta atual**
