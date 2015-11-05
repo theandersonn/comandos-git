@@ -36,41 +36,46 @@ Acesse "Repositories" > New
 ```bash
 No Github copie a URL SSH
 
-No gitBash (git clone + insert nomeOpcional)
+No gitBash (git clone + url-repositorio)
 ```
 
 **7 Inserir caminho do repositorio remoto**
 ```bash
-git remote add origin
+git remote add origin url-repositorio // origin é o nome do repositório remoto
 ```
 
-**8 Verificar caminho do repositorio remoto que está setado**
+**8 Remover caminho do repositorio remoto**
+```bash
+git remote rm origin // origin é o nome do repositório remoto
+```
+
+**9 Verificar caminho do repositorio remoto que está setado**
 ```bash
 git remote -v
 ```
 
-**9 Altera a url do repositório remoto (Máquina local > Github)**
+**10 Altera a url do repositório remoto (Máquina local > Github)**
 ```bash
 git remote set-url origin url-repositorio
 ```
 
-**10 Enviando as modificações para o GitHub**
+**11 Enviando as modificações para o GitHub**
 ```bash
 git push origin master
 ```
 
-**11 Deletando branch remota**
+**12 Deletando branch remota**
 ```bash
 git push origin nome-branch --delete
 git push origin :nome-da-branch
 ```
 
-**12 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
+**13 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
 git pull origin master
 ```
 
-**13 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**14 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
@@ -78,17 +83,17 @@ git pull origin master
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
 
-**14 Sincronizando os dois repositórios** (upstream e original)
+**15 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
 
-**15 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**16 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
 
-**16 Fechar issues através de commits**
+**17 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
