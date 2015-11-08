@@ -75,7 +75,14 @@ git push origin :nome-da-branch
 git pull origin master
 ```
 
-**14 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**14 Forçando git pull** (Os arquivos que estão locais serão subscritos)
+```bash
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+```
+
+**15 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
@@ -83,17 +90,17 @@ git pull origin master
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
 
-**15 Sincronizando os dois repositórios** (upstream e original)
+**16 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
 
-**16 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**17 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
 
-**17 Fechar issues através de commits**
+**18 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
