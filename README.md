@@ -6,15 +6,15 @@
 
 ## Tópicos
 
-1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/0-guia-simplificado.md)
-2. [Configurações Iniciais](https://github.com/theandersonn/comandos-git/blob/master/1-configuracoes-iniciais.md)
-3. [Criando e Versionando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/2-criando-e-versionando-repositorios.md)
-4. [Trabalhando com Arquivos na Working Directory](https://github.com/theandersonn/comandos-git/blob/master/3-trabalhando-com-arquivos-na-working-directory.md)
-5. [Trabalhando com Arquivos na Stage Area](https://github.com/theandersonn/comandos-git/blob/master/4-trabalhando-com-arquivos-na-stage-area.md)
-6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/5-trabalhando-com-commits.md)
-7. [Trabalhando com Branchs](https://github.com/theandersonn/comandos-git/blob/master/6-trabalhando-com-branchs.md)
-8. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/7-trabalhando-com-git-e-github.md)
-9. [Trabalhando com Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/8-trabalhando-com-git-no-servidor.md)
+1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/guia-simplificado.md)
+2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/configuracoes.md)
+3. [Versionamento de Repositórios](https://github.com/theandersonn/comandos-git/blob/master/versionamento-repositorios.md)
+4. [Working Directory](https://github.com/theandersonn/comandos-git/blob/master/working-directory.md)
+5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/stage-area.md)
+6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/commits.md)
+7. [Os Super Poderes das Branchs](https://github.com/theandersonn/comandos-git/blob/master/branchs.md)
+8. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/trabalhando-git-github.md)
+9. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/git-no-servidor.md)
 
 ## Colabore
 1. Fork o repositório
