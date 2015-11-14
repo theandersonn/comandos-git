@@ -102,5 +102,5 @@ git merge upstream/master
 
 **18 Fechar issues através de commits**
 ```bash
-git commit -m "Mensagem commit - fix ou resolve IDissue"
+git commit -m "Mensagem commit - fix issue #1"
 ```
