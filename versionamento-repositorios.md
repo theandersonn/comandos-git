@@ -1,4 +1,4 @@
-# 2. Criando e versionando repositórios
+# Criando e versionando repositórios
 
 **2.1 Criando Repositório**
 ```bash

@@ -1,4 +1,4 @@
-# 3. Trabalhando com arquivos na working directory
+# Trabalhando com arquivos na working directory
 
 **1 Adiciona aquivos para serem commitados**
 ```bash

@@ -1,4 +1,4 @@
-# 5. Trabalhando com commits
+# Trabalhando com commits
 
 **1 Commitando arquivos**
 ```bash

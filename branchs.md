@@ -1,4 +1,4 @@
-# 6. Trabalhando com branchs
+# Trabalhando com branchs
 
 **1 Criando uma nova branch**
 ```bash

@@ -1,4 +1,4 @@
-# 8. Trabalhando com Git no Servidor
+# Trabalhando com Git no Servidor
 
 **8.1 Iniciar versionamento no servidor**
 ```bash

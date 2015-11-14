@@ -1,4 +1,4 @@
-#Guia simplificado
+# Guia simplificado
 
 ###1 Configurações iniciais do Git Basch
 

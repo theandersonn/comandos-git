@@ -1,4 +1,4 @@
-# 8. Trabalhando com Git e GitHub
+# Trabalhando com Git e GitHub
 
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash

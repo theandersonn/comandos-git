@@ -1,4 +1,4 @@
-#4. Trabalhando com arquivos na stage area
+# Trabalhando com arquivos na stage area
 
 **1 Visualizando a última alteração feita**
 ```bash
