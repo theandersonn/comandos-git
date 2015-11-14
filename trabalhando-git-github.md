@@ -1,13 +1,13 @@
-# 7. Trabalhando com Git e GitHub
+# 8. Trabalhando com Git e GitHub
 
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash
-// O git irá lhe perguntar: "nome de arquivo" e "senha", aplique 2 enters e ignore se for conveniente
+// aplique 2 enters para confirmar "nome de arquivo" e "senha", 
 ssh-keygen
 
-// Normalmente o Git gera essa chave numa pasta dentre de Meus Documentos
+// Localize a chave em "Meus Documentos"
 
-Abra o arquivo ".ssh > id_rsa" e copie a chave
+Abra o arquivo ".ssh > id_rsa.pub" e copie a chave
 ```
 
 **2 Verificar se existe chave SSH configurada**
@@ -82,7 +82,7 @@ git reset --hard origin/master
 git pull origin master
 ```
 
-**15 Mantendo o Repositório Forkado atualizado com o original** (Para repositórios forkados)
+**15 Mantendo o Repositório Forkado atualizado com o original**
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
