@@ -1,6 +1,11 @@
 # Gerenciando Repositórios
 
-**1 Visualizando relatório de commits**
+**1 Pesquisa de texto em todos os diretórios**
+```bash
+git grep termo-da-busca
+```
+
+**2 Visualizando relatório de commits**
 ```bash
 gitk // Visualize os Commits numa interface gráfica
 
@@ -26,22 +31,22 @@ git log --pretty=format:"%h - %an, %ar : %s" // Resultado personalizado com hash
 
 ```
 
-**2 Visualizar número de commits por usuário**
+**3 Visualizar número de commits por usuário**
 ```bash
 git shortlog -s
 ```
 
-**3 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
+**4 Visualizar alterações feitas depois do último commit que ainda não foram stageadas**
 ```bash
 git diff
 ```
 
-**4 Visualizar alterações feitas depois do último commit que já foram stageadas**
+**5 Visualizar alterações feitas depois do último commit que já foram stageadas**
 ```bash
 git diff --cached
 ```
 
-**5 Identificando User que fez alterações em determinado arquivo**
+**6 Identificando User que fez alterações em determinado arquivo**
 ```bash
 git blame nome-arquivo
 ```
