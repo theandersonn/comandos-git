@@ -13,8 +13,9 @@
 5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/stage-area.md)
 6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/commits.md)
 7. [Os Super Poderes das Branchs](https://github.com/theandersonn/comandos-git/blob/master/branchs.md)
-8. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/trabalhando-git-github.md)
-9. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/git-no-servidor.md)
+8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/gerenciando-repositorios.md)
+9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/trabalhando-git-github.md)
+10. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/git-no-servidor.md)
 
 ## Sugestões
 
