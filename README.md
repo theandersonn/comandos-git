@@ -4,7 +4,7 @@
 
 > Guia com seleção de comandos para o Trabalho com Git e GitHub
 
-## Tópicos
+## comandos
 
 1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/guia-simplificado.md)
 2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/configuracoes.md)
@@ -19,11 +19,12 @@
 
 ## Sugestões
 
-1. [Cursos e Palestras](https://github.com/theandersonn/comandos-git/blob/master/cursos-palestras.md)
-2. [Ferramentas](https://github.com/theandersonn/comandos-git/blob/master/ferramentas.md)
-3. [Livros](https://github.com/theandersonn/comandos-git/blob/master/livros.md)
-4. [Slides](https://github.com/theandersonn/comandos-git/blob/master/slides.md)
-5. [GitHosting](https://github.com/theandersonn/comandos-git/blob/master/githosting.md)
+1. [Cursos e Palestras](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/cursos-palestras.md)
+2. [Ferramentas](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/ferramentas.md)
+3. [Livros](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/livros.md)
+4. [Slides](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/slides.md)
+5. [GitHosting](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/githosting.md)
+6. [vim-cheat-sheet](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/vim-cheat-sheet.md)
 
 ## Colabore
 1. Fork o repositório
