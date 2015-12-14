@@ -6,16 +6,16 @@
 
 ## comandos
 
-1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/guia-simplificado.md)
-2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/configuracoes.md)
-3. [Versionamento de Repositórios](https://github.com/theandersonn/comandos-git/blob/master/versionamento-repositorios.md)
-4. [Working Directory](https://github.com/theandersonn/comandos-git/blob/master/working-directory.md)
-5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/stage-area.md)
-6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/commits.md)
-7. [Os Super Poderes das Branchs](https://github.com/theandersonn/comandos-git/blob/master/branchs.md)
-8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/gerenciando-repositorios.md)
-9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/trabalhando-git-github.md)
-10. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/git-no-servidor.md)
+1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/comandos/guia-simplificado.md)
+2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/comandos/configuracoes.md)
+3. [Versionamento de Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/versionamento-repositorios.md)
+4. [Working Directory](https://github.com/theandersonn/comandos-git/blob/master/comandos/working-directory.md)
+5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/comandos/stage-area.md)
+6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/comandos/commits.md)
+7. [Os Super Poderes das Branchs](https://github.com/theandersonn/comandos-git/blob/master/comandos/branchs.md)
+8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/gerenciando-repositorios.md)
+9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-github.md)
+10. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/comandos/git-no-servidor.md)
 
 ## Sugestões
 
