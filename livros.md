@@ -11,3 +11,4 @@
 * [Link da versão em Português:](https://leanpub.com/pro-git/read)
 
 ---------------------------------------
+- [Git Internals PluralSight](https://github.com/pluralsight/git-internals-pdf)
