@@ -1,14 +1,5 @@
 # Sugestçoes de livros
 
-###Pro-Git
-
-* Autor(es): Scott Chacon / Eric Douglas
-
-* Valor: Free
-
-* [Link da versão em Inglês:](https://git-scm.com/book/en/v1)
-
-* [Link da versão em Português:](https://leanpub.com/pro-git/read)
-
----------------------------------------
 - [Git Internals PluralSight](https://github.com/pluralsight/git-internals-pdf)
+- [Pro-Git EN](https://git-scm.com/book/en/v1)
+- [Pro-Git PT](https://leanpub.com/pro-git/read)
