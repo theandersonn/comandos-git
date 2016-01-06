@@ -16,7 +16,7 @@
 
 * [Editor de Markdown](http://woliveiras.com.br/posts/haroopad-um-editor-markdown-maneiro/)
 
-###Plugins do SublimeText para facilitar o Workflow com Git e Markdown
+###Plugins do SublimeText (Git e Markdown)
 
 * GitGutter
 * Markdown Extended
