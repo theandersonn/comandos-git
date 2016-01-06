@@ -1,4 +1,4 @@
-# Trabalhando com branchs
+# Trabalhando com branches
 
 **1 Criando uma nova branch**
 ```bash
@@ -16,17 +16,21 @@ git checkout --orphan nome-branch // Criando uma nova branch vazia
 git checkout hash-commit -b nome-nova-branch
 ```
 
-**3 Renomeando branchs**
+Para encontrar o hash, você precisa rodar no terminal: `git log`.
+
+O hash é aquele número que aparece em `comit: xxxxxxx.`
+
+**3 Renomeando branches**
 ```bash
 git branch -m nome-branch
 ```
 
-**4 Aplicando merge em branchs**
+**4 Aplicando merge em branches**
 ```bash
 git merge nome-branch // Precisa estar na branch de destino
 ```
 
-**5 Visualizando todas as branchs existentes no repositório**
+**5 Visualizando todas as branches existentes no repositório**
 ```bash
 git branch // A branch corrente será marcada por um asterisco
 ```

@@ -2,7 +2,8 @@
 
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash
-// aplique 2 enters para confirmar "nome de arquivo" e "senha", 
+// aplique 2 enters para confirmar "nome de arquivo" e "senha"
+//(caso queira adicionar uma senha ao arquivo, aplique um enter, digite a senha e pressione enter de novo) 
 ssh-keygen
 
 // Localize a chave em "Meus Documentos"
@@ -61,7 +62,7 @@ git remote set-url origin url-repositorio
 
 **11 Enviando as modificações para o GitHub**
 ```bash
-git push origin master
+git push origin <branch>
 ```
 
 **12 Deletando branch remota**
@@ -72,14 +73,14 @@ git push origin :nome-da-branch
 
 **13 Baixando as modificações do GitHub para a sua máquina** (Se o repositório for de sua autoria)
 ```bash
-git pull origin master
+git pull origin <branch>
 ```
 
 **14 Forçando git pull** (Os arquivos que estão locais serão subscritos)
 ```bash
 git fetch --all
-git reset --hard origin/master
-git pull origin master
+git reset --hard origin/<branch>
+git pull origin <branch>
 ```
 
 **15 Mantendo o Repositório Forkado atualizado com o original**
@@ -102,5 +103,9 @@ git merge upstream/master
 
 **18 Fechar issues através de commits**
 ```bash
-git commit -m "Mensagem commit - fix issue #1"
+git commit -m "Mensagem commit - fix issue IDIssue"
 ```
+
+O ID da Issue você consegue na URL da mesma. Ex.: `issues/8` - 8.
+
+Outras palavras chave que podemos usar para fechamento de Issues: `fix, fixes, fixed, close, closes, closed, resolve, resolves, resolved`
