@@ -12,7 +12,7 @@
 4. [Working Directory](https://github.com/theandersonn/comandos-git/blob/master/comandos/working-directory.md)
 5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/comandos/stage-area.md)
 6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/comandos/commits.md)
-7. [Os Super Poderes das Branchs](https://github.com/theandersonn/comandos-git/blob/master/comandos/branchs.md)
+7. [Os Super Poderes das Branches](https://github.com/theandersonn/comandos-git/blob/master/comandos/branches.md)
 8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/gerenciando-repositorios.md)
 9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-github.md)
 10. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/comandos/git-no-servidor.md)
@@ -24,7 +24,7 @@
 3. [Livros](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/livros.md)
 4. [Slides](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/slides.md)
 5. [GitHosting](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/githosting.md)
-6. [vim-cheat-sheet](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/vim-cheat-sheet.md)
+6. [Vim Cheat Sheet](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/vim-cheat-sheet.md)
 
 ## Colabore
 1. Fork o repositório
