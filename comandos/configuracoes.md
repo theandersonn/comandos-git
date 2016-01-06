@@ -31,7 +31,7 @@ explorer .
 
 **5 Configura nome de usuário**
 ```bash
-git config --global user.name nome-sobrenome
+git config --global user.name nome-de-usuario
 ```
 
 **6 Configura email de usuário**
@@ -44,7 +44,7 @@ git config --global user.email email@email.com.br
 git config --global core.editor nome-editor
 ```
 
-**8 Configura a merge tool (meld)**
+**8 Configura a mergetool (meld)**
 ```bash
 git config --global merge.tool meld
 ```
