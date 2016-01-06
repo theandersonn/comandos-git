@@ -17,6 +17,7 @@ git checkout hash-commit -b nome-nova-branch
 ```
 
 Para encontrar o hash, você precisa rodar no terminal: `git log`.
+
 O hash é aquele número que aparece em `comit: xxxxxxx.`
 
 **3 Renomeando branches**
