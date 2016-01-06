@@ -14,5 +14,5 @@ git remote
 ```
 **8.4 Enviando arquivos/modificações para o servidor**
 ```bash
-git push origin master
+git push origin <branch>
 ```
