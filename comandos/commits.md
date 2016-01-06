@@ -1,6 +1,9 @@
 # Trabalhando com commits
 
 **1 Commitando arquivos**
+
+*Depois de adicionar os arquivos com git add -A, por exemplo.*
+
 ```bash
 git commit -m "Inseir um Comentário Significativo"
 ```
@@ -21,10 +24,18 @@ git commit --amend -m "mensagem-do-commit"
 git commit -m "Mensagem commit - fix ou resolve IDissue"
 ```
 
+O ID da Issue você consegue na URL da mesma. Ex.: `issues/8` - 8.
+
+Outras palavras chave que podemos usar para fechamento de Issues: `fix, fixes, fixed, close, closes, closed, resolve, resolves, resolved`
+
 **5 Revertendo ação de um commit específico**
 ```bash
 git revert commit-hash
 ```
+
+Para encontrar o hash, você precisa rodar no terminal: `git log`.
+
+O hash é aquele número que aparece em `comit: xxxxxxx.`
 
 **6 Abortando o processo de reverter commit**
 ```bash
@@ -36,14 +47,14 @@ git revert --abort
 git merge --abort
 ```
 
-**8 Acionando a merge tool**
+**8 Acionando a [mergetool](https://git-scm.com/docs/git-mergetool)**
 ```bash
-git merge tool
+git mergetool
 ```
 
 **9 Excluindo um commit local**
 ```bash
-git reset --hard numero-hash-commit
+git reset --hard hash-commit
 ```
 
 **13 Visualiza alterações específicas**
