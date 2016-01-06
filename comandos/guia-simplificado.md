@@ -1,6 +1,6 @@
 # Guia simplificado
 
-###1 Configurações iniciais do Git Basch
+###1 Configurações iniciais do Git
 
 **Baixando e instalando o Git**
 ```bash
@@ -49,12 +49,12 @@ git log --oneline // exibe log com hash e título do commit
 
 **Enviando as modificações para o repositório remoto**
 ```bash
-git push origin master
+git push origin <branch>
 ```
 
 **Puxando alterações do repositório remoto**
 ```bash
-git pull origin master
+git pull origin <branch>
 ```
 
 ###4 Trabalhando com branchs
@@ -69,7 +69,7 @@ git checkout -b nome-branch
 git merge nome-branch // precisa estar na branch de destino
 ```
 
-**Visualizando todas as branchs existentes no repositório**
+**Visualizando todas as branches existentes no repositório**
 ```bash
 git branch
 ```
