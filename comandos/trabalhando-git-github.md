@@ -3,7 +3,7 @@
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash
 // aplique 2 enters para confirmar "nome de arquivo" e "senha"
-//(caso queira adicionar uma senha ao arquivo, aplique um enter, digite a senha e pressione enter de novo) 
+//(caso queira adicionar uma senha ao arquivo, aplique um enter, digite a senha e pressione enter de novo)
 ssh-keygen
 
 // Localize a chave em "Meus Documentos"
@@ -76,14 +76,19 @@ git push origin :nome-da-branch
 git pull origin <branch>
 ```
 
-**14 Forçando git pull** (Os arquivos que estão locais serão subscritos)
+**14 Baixando o conteúdo de uma branch remota e locomovendo-se para esta nova branch**
+```bash
+git checkout -b <branch> origin/<branch>
+```
+
+**15 Forçando git pull** (Os arquivos que estão locais serão subscritos)
 ```bash
 git fetch --all
 git reset --hard origin/<branch>
 git pull origin <branch>
 ```
 
-**15 Mantendo o Repositório Forkado atualizado com o original**
+**16 Mantendo o Repositório Forkado atualizado com o original**
 ```bash
 // Nesse momento o nosso repositório chama-se origin;
 // Vamos criar um novo chamado "upstream" que apontará para o original.
@@ -91,17 +96,17 @@ git pull origin <branch>
 git remote add upstream insira-url-ssh-do-repositorio-original
 ```
 
-**16 Sincronizando os dois repositórios** (upstream e original)
+**17 Sincronizando os dois repositórios** (upstream e original)
 ```bash
 git fetch upstream
 ```
 
-**17 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
+**18 Aplicando merge nas atualizações do fork para a branch master do nosso repositório**
 ```bash
 git merge upstream/master
 ```
 
-**18 Fechar issues através de commits**
+**19 Fechar issues através de commits**
 ```bash
 git commit -m "Mensagem commit - fix issue IDIssue"
 ```
