@@ -9,6 +9,8 @@
 
 **Palestras**
 
+- [Danilo Bellini - Introdução ao Git e Github](https://www.youtube.com/watch?v=Fc_UC5SywuU)
 - [Fabio Akita - Screencast - Começando com o Git](http://www.akitaonrails.com/2010/08/17/screencast-comecando-com-git)
 - [Gustavo Mathias - Git e GitHub para iniciantes](https://www.youtube.com/watch?v=TReVFOxhh7E)
 - [Loiane Groner - Git e Github para iniciantes](https://www.youtube.com/watch?v=UMhskLXJuq4)
+
