@@ -24,7 +24,7 @@
 3. [Livros](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/livros.md)
 4. [Slides](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/slides.md)
 5. [GitHosting](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/githosting.md)
-6. [Vim Cheat Sheet](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/vim-cheat-sheet.md)
+6. [Vim Cheat Sheet](http://woliveiras.com.br/vimparanoobs/)
 
 ## Colabore
 1. Fork o repositório
