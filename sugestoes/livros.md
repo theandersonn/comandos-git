@@ -1,4 +1,4 @@
-# Sugestçoes de livros
+# Sugestões de livros
 
 - [Git Internals PluralSight](https://github.com/pluralsight/git-internals-pdf)
 - [Git in the Trenches](http://cbx33.github.com/gitt)
