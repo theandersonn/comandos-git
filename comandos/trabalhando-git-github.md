@@ -2,8 +2,7 @@
 
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash
-// aplique 2 enters para confirmar "nome de arquivo" e "senha"
-//(caso queira adicionar uma senha ao arquivo, aplique um enter, digite a senha e pressione enter de novo)
+// Gerando as chaves pública e privada
 ssh-keygen
 
 // Localize a chave em "Meus Documentos"
