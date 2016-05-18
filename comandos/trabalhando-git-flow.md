@@ -135,21 +135,19 @@ git flow release finish MINHA_VERSAO
 ```bash
 git flow hotfix start MEU_HOTFIX
 ```
-> Cria um branch baseado no MASTER
->
+> Cria um branch baseado no MASTER  
 > O argumento MEU_HOTFIX nesse caso marca a versão defeituosa na produção
 
 **Finalizar um hotfix**
 ```bash
 git flow hotfix finish MEU_HOTFIX
 ```
-> Ele irá fazer um merge no MASTER e no DEVELOP
->
+> Ele irá fazer um merge no MASTER e no DEVELOP  
 > O merge no MASTER será etiquetado
 
 ###Resumo dos Comandos
 ![Git Flow Comandos] (../images/git-flow-comandos.png)
 
 ###Fonte
-Git-Flow: https://github.com/nvie/gitflow
+Git-Flow: https://github.com/nvie/gitflow  
 Documentação: http://danielkummer.github.io/git-flow-cheatsheet/
