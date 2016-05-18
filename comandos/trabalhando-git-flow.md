@@ -136,7 +136,7 @@ git flow hotfix finish MEU_HOTFIX
 > O merge no MASTER será etiquetado
 
 ###Resumo dos Comandos
-![Git Flow Comandos] (images/git-flow-comandos.png)
+![Git Flow Comandos] (../images/git-flow-comandos.png)
 
 ###Fonte
 Git-Flow: https://github.com/nvie/gitflow
