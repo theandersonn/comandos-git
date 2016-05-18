@@ -3,11 +3,13 @@
 ###Git Flow
 
 > Aqui é apenas um resumo
+>
 > Nem todos os comandos disponíveis estão cobertos aqui, apenas os mais importantes deles
 
 **O que é?**
 
 > O git-flow é um conjunto de extensões para o git que provê operações de alto-nível para repositórios usando o modelo de branches do Vincent Driessen
+>
 > Você pode continuar a usar o git e todos os comandos dele normalmente como você já conhece, o git flow é apenas uma coleção de ferramentas
 
 *Em poucas palavras*
@@ -77,9 +79,13 @@ git flow feature start MINHA_FUNCIONALIDADE
 git flow feature finish MINHA_FUNCIONALIDADE
 ```
 > Esse comando irá executar as seguintes ações:
+>
 > Merge com a branch develop;
+>
 > Deleta a branch funcionalidade;
+>
 > Checkout na branch develop;
+>
 > Para finalizar uma funcionalidade, você deve executar esse comando dentro do branch funcionalidade que deseja finalizar
 
 **Publicando uma funcionalidade**
@@ -113,9 +119,13 @@ git flow release publish MINHA_VERSAO
 git flow release finish MINHA_VERSAO
 ```
 > Na finalização de uma versão, ele executa várias ações:
+>
 > Faz merge do branch MINHA_VERSAO no MASTER;
+>
 > Faz merge do branch MINHA_VERSAO e um checkout no DEVELOP;
+>
 > Etiqueta a versão com seu nome;
+>
 > Remove o branch MINHA_VERSAO;
 
 ##Hotfix
@@ -126,6 +136,7 @@ git flow release finish MINHA_VERSAO
 git flow hotfix start MEU_HOTFIX
 ```
 > Cria um branch baseado no MASTER
+>
 > O argumento MEU_HOTFIX nesse caso marca a versão defeituosa na produção
 
 **Finalizar um hotfix**
@@ -133,6 +144,7 @@ git flow hotfix start MEU_HOTFIX
 git flow hotfix finish MEU_HOTFIX
 ```
 > Ele irá fazer um merge no MASTER e no DEVELOP
+>
 > O merge no MASTER será etiquetado
 
 ###Resumo dos Comandos
