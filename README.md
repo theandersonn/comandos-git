@@ -16,6 +16,7 @@
 8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/gerenciando-repositorios.md)
 9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-github.md)
 10. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/comandos/git-no-servidor.md)
+11. [Trabalhando com Git Flow] (https://github.com/theandersonn/comandos-git/blob/master/comandos/trabakhando-git-flow.md)
 
 ## Sugestões
 
