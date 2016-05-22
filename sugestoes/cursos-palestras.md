@@ -6,6 +6,7 @@
 - [Fernando Daciuk - Curso Git e Github Ninja](http://blog.da2k.com.br/curso-git-e-github-ninja/)
 - [RBtech - Básico de Git](https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)
 - [Renato França - GitHub para n00bs](https://www.youtube.com/playlist?list=PLIcowd3mjrFjdFDTFcHKHdgTqYZZdMyKH)
+- [Rodrigo Branas - Aula de Git e Github](https://www.youtube.com/playlist?list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1)
 - [Willian Justen - Git e Github para Iniciantes](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
 
 **Palestras**
