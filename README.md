@@ -1,6 +1,5 @@
 <p align="center">
-    ![Git Super Poderes](images/git-super-poderes.png)
-    <img src="images/git-super-poderes.png" width="150" />
+    <img src="images/git-super-poderes.png" width="728" />
 </p>
 
 # Conhecendo os super poderes do Git
