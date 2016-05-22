@@ -1,4 +1,6 @@
-![Git Super Poderes](images/git-super-poderes.png)
+<p align="center">
+    ![Git Super Poderes](images/git-super-poderes.png)
+</p>
 
 # Conhecendo os super poderes do Git
 
