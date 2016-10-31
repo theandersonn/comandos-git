@@ -13,9 +13,9 @@ git checkout --orphan nome-branch // Criando uma nova branch vazia
 
 **2 Cria uma branch local baseada na remota**
 ```bash
-git fetch origin // Atualiza com seu repositório
+git fetch origin 
 
-git checkout origin/feature-x -b feature-x // Cria localmente a branch feature-x, baseada na branch remota do seu repositório origin/feature-x
+git checkout origin/feature-x -b feature-x
 ```
 
 **3 Retorna num ponto específico e cria uma nova branch**
