@@ -1,14 +1,17 @@
 # Trabalhando com branches
 
-**1 Criando uma nova branch**
+**1 Cria uma nova branch**
 ```bash
 git branch nome-branch
 
-git checkout nome-branch // Acessando a nova branch
+# Acessando a nova branch
+git checkout nome-branch 
 
-git checkout -b nome-branch // Criando e acessando uma nova branch (Prefiro esse)
+# Criando e acessando uma nova branch
+git checkout -b nome-branch 
 
-git checkout --orphan nome-branch // Criando uma nova branch vazia
+# Criando uma nova branch vazia
+git checkout --orphan nome-branch 
 ```
 
 **2 Cria uma branch local baseada na remota**
@@ -18,41 +21,54 @@ git fetch origin
 git checkout origin/feature-x -b feature-x
 ```
 
-**3 Retorna num ponto específico e cria uma nova branch**
+**3 Renomeia branch local**
+```bash
+# Renomeia a brach localmente
+git branch -m old-branch new-branch 
+
+# Deleta a branch velha
+git push --set-upstream origin new-branch
+
+# Empurra a nova branch, define a branch local no track remoto
+git push origin :old-branch  
+```
+
+**4 Retorna num ponto específico e cria uma nova branch**
 ```bash
 git checkout hash-commit -b nome-nova-branch
 ```
 
-Para encontrar o hash, você precisa rodar no terminal: `git log`.
+# Para encontrar o hash, você precisa rodar no terminal: `git log`.
+# O hash é aquele número que aparece em `comit: xxxxxxx.`
 
-O hash é aquele número que aparece em `comit: xxxxxxx.`
-
-**4 Renomeando branches**
+**5 Renomeando branches**
 ```bash
 git branch -m nome-branch
 ```
 
-**5 Aplicando merge em branches**
+**6 Aplicando merge em branches**
 ```bash
-git merge nome-branch // Precisa estar na branch de destino
+# Precisa estar na branch de destino
+git merge nome-branch 
 ```
 
-**6 Visualizando todas as branches existentes no repositório**
+**7 Visualizando todas as branches existentes no repositório**
 ```bash
-git branch // A branch corrente será marcada por um asterisco
+# A branch corrente será marcada por um asterisco
+git branch 
 ```
 
-**7 Visualizando todas as branches locais e remotas**
+**8 Visualizando todas as branches locais e remotas**
 ```bash
 git branch -a
 ```
 
-**8 Deletando uma branch**
+**9 Deletando uma branch**
 ```bash
 git branch -D nome-branch
 ```
 
-**9 Deletando branch remota**
+**10 Deletando branch remota**
 ```bash
 git push origin :nome-branch
 ```
