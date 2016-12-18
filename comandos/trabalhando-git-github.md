@@ -2,12 +2,10 @@
 
 **1 Gerando uma chave SSH de autenticação no Git bash**
 ```bash
-// Gerando as chaves pública e privada
 ssh-keygen
 
-// Localize a chave em "Meus Documentos"
-
-Abra o arquivo ".ssh > id_rsa.pub" e copie a chave
+# ler a chave publica no linux
+cat /home/nome-usuario/.ssh/id_rsa.pub
 ```
 
 **2 Verificar se existe chave SSH configurada**
