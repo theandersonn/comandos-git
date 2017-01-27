@@ -14,8 +14,7 @@ git config --global user.name nome-sobrenome
 
 **Configura email de usuário**
 ```bash
-git config --global user.email email@email.
-com.br
+git config --global user.email email@email.com.br
 ```
 
 ###2 Inicializando um repositório
