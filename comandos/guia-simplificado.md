@@ -14,7 +14,8 @@ git config --global user.name nome-sobrenome
 
 **Configura email de usuário**
 ```bash
-git config --global user.email email@email.com.br
+git config --global user.email email@email.
+com.br
 ```
 
 ###2 Inicializando um repositório
@@ -38,7 +39,7 @@ git add .
 
 **Commitando arquivos**
 ```bash
-git commit -m "inseir um comentário significativo"
+git commit -m "inserir um comentário significativo"
 ```
 
 **Visualizando relatório de commits**
@@ -74,8 +75,13 @@ git merge nome-branch // precisa estar na branch de destino
 git branch
 ```
 
-**Deletando uma branch**
+**Deletando uma branch local**
 ```bash
 git branch -D nome-branch
+```
+
+**Deletando uma branch remoto**
+```bash
+git push origin :nome-branch
 ```
 
