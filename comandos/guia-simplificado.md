@@ -38,7 +38,7 @@ git add .
 
 **Commitando arquivos**
 ```bash
-git commit -m "inseir um comentário significativo"
+git commit -m "inserir um comentário significativo"
 ```
 
 **Visualizando relatório de commits**
@@ -74,8 +74,13 @@ git merge nome-branch // precisa estar na branch de destino
 git branch
 ```
 
-**Deletando uma branch**
+**Deletando uma branch local**
 ```bash
 git branch -D nome-branch
+```
+
+**Deletando uma branch remoto**
+```bash
+git push origin :nome-branch
 ```
 
