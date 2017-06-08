@@ -1,6 +1,6 @@
 # Trabalhando com Git Flow
 
-###Git Flow
+### Git Flow
 
 > Aqui é apenas um resumo  
 > Nem todos os comandos disponíveis estão cobertos aqui, apenas os mais importantes deles
@@ -20,7 +20,7 @@
 - Versão / Release;
 - Hotfix
 
-###Instalação
+### Instalação
 
 
 **Ubuntu/Debian-based**
@@ -53,7 +53,7 @@ wget --no-check-certificate -q  https://raw.github.com/petervanderdoes/gitflow-a
 ```
 
 
-###Começando com Git Flow
+### Começando com Git Flow
 
 
 **Inicialização**
@@ -93,7 +93,7 @@ git flow feature pull MINHA_FUNCIONALIDADE
 ```
 > Simplesmente um pull de uma branch
 
-##Versões / Release
+## Versões / Release
 > Auxilia a preparação de uma nova versão de produção
 
 **Começar uma nova versão**
@@ -118,7 +118,7 @@ git flow release finish MINHA_VERSAO
 > Etiqueta a versão com seu nome;  
 > Remove o branch MINHA_VERSAO;
 
-##Hotfix
+## Hotfix
 > Os hotfixes surgem da necessidade de agir imediatamente sobre uma situação indesejada na versão de produção ativa
 
 **Criando um hotfix**
@@ -135,9 +135,9 @@ git flow hotfix finish MEU_HOTFIX
 > Ele irá fazer um merge no MASTER e no DEVELOP  
 > O merge no MASTER será etiquetado
 
-###Resumo dos Comandos
+### Resumo dos Comandos
 ![Git Flow Comandos] (../images/git-flow-comandos.png)
 
-###Fonte
+### Fonte
 Git-Flow: https://github.com/nvie/gitflow  
 Documentação: http://danielkummer.github.io/git-flow-cheatsheet/
