@@ -50,6 +50,11 @@ git log // todos os commits
 git log --oneline // exibe log com hash e título do commit
 ```
 
+**Adicionando um repositório remoto**
+```bash
+git remote add origin https://github.com/User/Repository.git
+```
+
 **Enviando as modificações para o repositório remoto**
 ```bash
 git push origin <branch>
