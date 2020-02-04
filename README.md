@@ -6,7 +6,7 @@
 
 > Guia com seleção de comandos para o Trabalho com Git e GitHub
 
-## comandos
+## Comandos
 
 1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/comandos/guia-simplificado.md)
 2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/comandos/configuracoes.md)
