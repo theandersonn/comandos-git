@@ -7,7 +7,7 @@
 - [RBtech - Básico de Git](https://www.youtube.com/playlist?list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)
 - [Renato França - GitHub para n00bs](https://www.youtube.com/playlist?list=PLIcowd3mjrFjdFDTFcHKHdgTqYZZdMyKH)
 - [Rodrigo Branas - Aula de Git e Github](https://www.youtube.com/playlist?list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1)
-- [Willian Justen - Git e Github para Iniciantes](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
+- [Willian Justen - Git e Github para Iniciantes](https://www.youtube.com/watch?v=IBClN6VpJDw&list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)
 
 **Palestras**
 
