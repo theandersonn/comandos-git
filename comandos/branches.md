@@ -23,7 +23,7 @@ git fetch --all ou git remote update
 ```bash
 git fetch origin 
 
-git checkout origin/feature-x -b feature-x
+git checkout -b "feature-x" "origin/feature-x"
 ```
 
 **Renomeiar branch local**
