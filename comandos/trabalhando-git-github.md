@@ -5,7 +5,10 @@
 ssh-keygen
 
 # ler a chave publica no linux
-cat /home/nome-usuario/.ssh/id_rsa.pub
+cat /home/<nome-usuario>/.ssh/id_rsa.pub
+
+# ler a chave publica no mac
+cat /Users/<nome-usuario>/.ssh/id_rsa.pub
 ```
 
 **2 Verificar se existe chave SSH configurada**
