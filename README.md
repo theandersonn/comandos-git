@@ -17,7 +17,7 @@
 7. [Os Super Poderes das Branches](https://github.com/theandersonn/comandos-git/blob/master/comandos/branches.md)
 8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/gerenciando-repositorios.md)
 9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-github.md)
-10. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/comandos/tags.md)
+10. [Trabalhando com Tags](https://github.com/theandersonn/comandos-git/blob/master/comandos/tags.md)
 11. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/comandos/git-no-servidor.md)
 12. [Trabalhando com Git Flow](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-flow.md)
 
