@@ -52,8 +52,14 @@ git config --global merge.tool meld
 **9 Edita configurações globais**
 ```bash
 git config --global -e
+# Exemplo editor = atom --wait
+```
 
-// Exemplo editor = atom --wait
+**10 configura follow-tags como true por padrão**
+```bash
+git config --global --edit
+[push]
+followTags = true
 ```
 
 **10 Armazena senha (https)**
