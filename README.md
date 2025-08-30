@@ -1,45 +1,85 @@
-<p align="center">
-    <img src="images/git-super-poderes.png" width="728" />
-</p>
+# 📘 Comandos Git
 
-# Conhecendo os super poderes do Git
+![GitHub issues](https://img.shields.io/github/issues/theandersonn/comandos-git)
+![GitHub license](https://img.shields.io/github/license/theandersonn/comandos-git)
+![GitHub repo size](https://img.shields.io/github/repo-size/theandersonn/comandos-git)
 
-> Guia com seleção de comandos para o Trabalho com Git e GitHub
+Guia prático e didático com uma **seleção organizada de comandos Git e GitHub**, voltado tanto para iniciantes quanto para quem precisa de uma **referência rápida no dia a dia**.
 
-## Comandos
+O conteúdo está dividido em capítulos independentes, com exemplos práticos, dicas visuais e boas práticas.
 
-1. [Guia Simplificado](https://github.com/theandersonn/comandos-git/blob/master/comandos/guia-simplificado.md)
-2. [Configurações](https://github.com/theandersonn/comandos-git/blob/master/comandos/configuracoes.md)
-3. [Versionamento de Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/versionamento-repositorios.md)
-4. [Working Directory](https://github.com/theandersonn/comandos-git/blob/master/comandos/working-directory.md)
-5. [Stage Area](https://github.com/theandersonn/comandos-git/blob/master/comandos/stage-area.md)
-6. [Trabalhando com Commits](https://github.com/theandersonn/comandos-git/blob/master/comandos/commits.md)
-7. [Os Super Poderes das Branches](https://github.com/theandersonn/comandos-git/blob/master/comandos/branches.md)
-8. [Gerenciando Repositórios](https://github.com/theandersonn/comandos-git/blob/master/comandos/gerenciando-repositorios.md)
-9. [Trabalhando com Git e  GitHub](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-github.md)
-10. [Trabalhando com Tags](https://github.com/theandersonn/comandos-git/blob/master/comandos/tags.md)
-11. [Git no Servidor](https://github.com/theandersonn/comandos-git/blob/master/comandos/git-no-servidor.md)
-12. [Trabalhando com Git Flow](https://github.com/theandersonn/comandos-git/blob/master/comandos/trabalhando-git-flow.md)
+---
 
-## Sugestões
+## ⚙️ Pré-requisitos
+- Git ≥ 2.x
+- VS Code (opcional, para seções visuais)
+- Acesso à internet para GitHub
 
-1. [Cursos e Palestras](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/cursos-palestras.md)
-2. [Ferramentas](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/ferramentas.md)
-3. [Livros](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/livros.md)
-4. [Slides](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/slides.md)
-5. [GitHosting](https://github.com/theandersonn/comandos-git/blob/master/sugestoes/githosting.md)
-6. [Vim Cheat Sheet](http://woliveiras.com.br/vimparanoobs/)
+---
 
-## Colabore
-1. Fork o repositório
-2. Crie a sua branch: git checkout -b nome-branch
-3. Committe as suas alterações: git commit -m "Comentário com a sua alteração"
-4. Envie a sua branch: git push origin nome-branch
-5. Envie uma solicitação de alteração através de pull request :)
+## 📚 Estrutura do Guia
 
-## Questões e dúvidas
+1. 📖 [Introdução ao Git](./docs/01-introducao.md)  
+   Conceitos básicos, diferenças entre Git e GitHub e o fluxo de arquivos.
+
+2. ⚙️ [Configuração Inicial](./docs/02-configuracao-inicial.md)  
+   Configuração de usuário, e-mail, editor, merge tool e credenciais.
+
+3. 📂 [Conceitos e Estrutura do Projeto](./docs/03-estrutura-projeto.md)  
+   Working Directory, Staging Area e Git Directory.
+
+4. 📦 [Criando e Versionando Repositórios](./docs/04-repositorios.md)  
+   Inicializando repositórios, criando arquivos, clonando repositórios remotos.
+
+5. 📝 [Trabalhando com Arquivos](./docs/05-arquivos.md)  
+   Adicionar, remover, restaurar arquivos, diferenças e fluxo de Stage Area.
+
+6. 💾 [Commits](./docs/06-commits.md)  
+   Criar, editar, reverter commits, stash, diffs e fluxos visuais.
+
+7. 🔀 [Branches e Merges](./docs/07-branches-merges.md)  
+   Criar, acessar, renomear, deletar branches e realizar merge.
+
+8. 🌐 [Trabalhando com GitHub](./docs/08-github.md)  
+   Configuração SSH, remotos, push/pull, fork/upstream e fechamento de issues.
+
+9. 📊 [Histórico e Relatórios](./docs/09-historico.md)  
+   git log, git blame, git grep, comparações de commits e estatísticas.
+
+10. 🏷️ [Tags e Versionamento](./docs/10-tags.md)  
+    Tipos de tags, envio para servidor, versionamento semântico e boas práticas.
+
+11. ⚡ [Git no VS Code](./docs/11-vscode.md)  
+    Uso do VS Code para controle de versão, resolução de conflitos visualmente e extensões úteis.
+
+---
+
+## 🤝 Como Contribuir
+
+1. Faça um **fork** do repositório. 
+
+2. Crie sua branch:
+   ```bash
+   git checkout -b minha-branch
+   ```
+3. Commit suas alterações: 
+   ```bash
+   git commit -m "Descrição da alteração"
+   ```
+4. Envie sua branch:
+   ```bash
+   git push origin minha-branch
+   ```
+5. Abra um pull request 🚀
+
+## 🤝 Colaboradores
+Recebemos colaborações de desenvolvedores incríveis, incluindo:
+
+![Contributors](https://contrib.rocks/image?repo=theandersonn/comandos-git&size=30)
+
+
+## ❓ Questões e Dúvidas
 Caso tenha alguma questão ou sugestão, abra uma [issue](https://github.com/theandersonn/comandos-git/issues/new) e envie o seu feedback.
-
-## License
-
+ 
+## 📜 License
 [MIT](https://github.com/theandersonn/comandos-git/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)
